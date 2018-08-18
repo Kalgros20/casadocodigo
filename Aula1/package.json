@@ -1,0 +1,28 @@
+{
+  "name": "casadocodigo",
+  "version": "1.0.0",
+  "description": "site da casa do codigo",
+  "main": "index.js",
+  "scripts": {
+    "start": "echo começando testes",
+    "test": "set NODE_ENV=test&&node node_modules/mocha/bin/mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "express-load": "^1.1.16",
+    "express-validator": "^5.3.0",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "mysql": "^2.16.0",
+    "nodemon": "^1.18.3",
+    "socket.io": "^2.1.1",
+    "supertest": "^3.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
