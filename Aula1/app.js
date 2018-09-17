@@ -5,5 +5,5 @@ var io = require('socket.io')(http);
 app.set('io',io);
 
 http.listen(3000, function(){
-    console.log("Servidor Rodando");
+    console.log("Servidor Rodando Agora");
 }); 
